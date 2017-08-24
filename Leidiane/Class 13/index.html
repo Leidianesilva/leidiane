@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>        
+        <div class="container-fluid">
+            <div id="startPage" class="row">
+                <div class="primeiro col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-1">
+                    <h1 id="primeiroTitulo">Livros que encantam</h1>
+                    <button id="inicial"class="btn btn-primary">Click me!</button>
+                </div>
+            </div>
+
+            <div id="mainPage">
+                <div class="row"id="bookContainer">
+                    <img id="picture" src=""/>
+                    <h1 id="titulo"></h1>
+                    <p id= "paragrafo"></p>
+                    <a id="website" href="">Buy</a>
+                </div>
+
+            </div>   
+
+                <button id="buttonLike" data-Opinion="like"><i class="glyphicon glyphicon-thumbs-up"></i>Like</button>
+                <button id="buttonDislike" data-Opinion="dislike"><i class="glyphicon glyphicon-remove"></i>Dislike</button>
+            </div>       
+            
+            <div id="endPage" class="row">
+                <table id="books">
+                    <thead>
+                        <tr>          
+                            <td>Book</td>
+                            <td>Opinion</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <br>
+                    <label>Total de Likes: </label><label id="contador1"></label>
+                <br>
+                    <label>Total de Dislikes: </label><label id="contador2"></label>
+            </div>
+
+
+        </div>
+            <br>
+            <br>
+            <label id="teste"></label>
+            <label>Likes</label>
+
+            <script type="text/javascript" src="jquery-3.2.1.js"></script>
+            <script type="text/javascript" src="script.js"></script>
+            
+    </body>
+</html>
